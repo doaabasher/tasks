@@ -1,0 +1,365 @@
+.page4{
+width:1000px ;
+height: 600px;
+display: flex; 
+justify-content: space-around;
+}
+
+
+
+
+
+#p4sec1p1{
+
+position: absolute;
+width: 480px;
+height: 301px;
+left: 150px;
+top: 205px;
+}
+
+
+#p4heeder1{
+/* News & Articles */
+
+position: absolute;
+width: 500px;
+height: 81px;
+left: 150px;
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 81px;
+/* identical to box height */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.04em;
+
+color: #181945;
+
+
+}
+
+#p4p1{
+/* Stays updated with our latest blog and news and get healthy tips & trick for oral health */
+
+position: absolute;
+width: 480px;
+height: 56px;
+left: 150px;
+top:50px;
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+
+color: #181945;
+
+opacity: 0.7;
+
+}
+#p4sec1p1{
+    position: relative;
+    width: 450px;
+    height: 450;
+}
+#p4sec1bot{
+    position: absolute;
+    width: 440px;
+    height: 60px;
+    left: 190px;
+    top: 428px;
+    
+    background: #FFFFFF;
+    border: 1px solid rgba(24, 25, 69, 0.1);
+    border-radius: 16px;
+}
+
+.btn{
+    
+position: absolute;
+width: 153px;
+height: 24px;
+left: 170px;
+top: 464px;
+
+font-family: 'Eudoxus Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+display: flex;
+align-items: flex-end;
+letter-spacing: -0.02em;
+
+color: rgba(24, 25, 69, 0.6);
+
+opacity: 0.8;
+
+}
+
+
+
+
+#p4imges{
+    position: relative;
+    margin-left: 950px;
+}
+
+#p4images2{
+position: absolute;
+width: 330px;
+height: 400px;
+margin-left: 740px;
+border-radius: 48px;
+}
+#p4imges1{
+position:absolute;
+width: 144px;
+height:144px;
+top:0px;
+left:200px;
+margin-bottom: 70p;
+}
+.BLOG-card{
+    margin-left:50px;
+}
+/*=============================== card=============================== */
+
+.BLOG-card-text {
+    margin: 100px 0px ;
+
+}
+.BLOG-card-text p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #583FBC;
+
+}
+.BLOG-card-text h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    
+    color: #181945;
+    
+}
+
+.mycard{
+    display: inline-table; 
+    margin-left:50px ;
+
+}
+.mycard:hover{
+    transform: translate( 0px ,-18px);
+    transition: all .4 ease;
+}
+.mycard-info { 
+    height: 600px;
+    width: 367px;
+    border-radius: 10%;
+    background-clip: border-box;
+    border: 2px solid rgba(24, 25, 69, 0.1);
+    filter: drop-shadow(0px 64px 96px rgba(24, 25, 69, 0.05));
+}
+.mycard_img {
+
+    width: 92%;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 16px 18px 0px;
+    display: grid;
+    justify-content: center;
+}
+
+.mycard_img1 {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    z-index: 333;
+}
+
+.mycard_img2 {
+    position: relative;
+    border-radius: 37px;
+    width: 334px;
+}
+
+.mycard-body {
+    width: 343px;
+    margin: auto;
+    height:600PX ;
+    padding: 20px 2px;
+}
+
+.mycard-body h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #583FBC;
+    
+}
+
+.mycard-body h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: -0.02em;
+
+    color: #181945;
+}
+
+/*=============================== card=============================== */
+
+.BLOG-card-text {
+    margin: 100px 0px ;
+
+}
+.BLOG-card-text p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #583FBC;
+
+}
+
+
+
+
+
+.BLOG-card-text h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: -0.04em;
+    
+    color: #181945;
+    
+}
+
+.mycard{
+    display: inline-table; 
+
+}
+.mycard:hover{
+    transform: translate( 0px ,-18px);
+    transition: all .4 ease;
+}
+.mycard-info { 
+    height: 600px;
+    width: 367px;
+    border-radius: 10%;
+    background-clip: border-box;
+    border: 2px solid rgba(24, 25, 69, 0.1);
+    filter: drop-shadow(0px 64px 96px rgba(24, 25, 69, 0.05));
+}
+.mycard_img {
+
+    width: 92%;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    padding: 16px 18px 0px;
+    display: grid;
+    justify-content: center;
+}
+
+.mycard_img1 {
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    z-index: 333;
+}
+
+.mycard_img2 {
+    position: relative;
+    border-radius: 37px;
+    width: 334px;
+}
+
+.mycard-body {
+    width: 343px;
+    margin: auto;
+    padding: 20px 2px;
+    height: 600PX;
+}
+
+.mycard-body h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+    
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    
+    color: #583FBC;
+    
+}
+
+.mycard-body h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+    letter-spacing: -0.02em;
+
+    color: #181945;
+
+}
+
+.mycard-body p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.02em;
+    color: #181945;
+    opacity: 0.5;
+} 
+
+/* =========btn min card  =========*/
+}
